@@ -8,4 +8,4 @@ grep -Ril "name"
 rm -rf folder_name
 
 # copy folder and subfolder (backup)
-cp -r -u <folder_name> <folder_name_backup>`date +"%Y%m%d"`
+cp -r -u folder_name folder_name_backup`date +"%Y%m%d"`
