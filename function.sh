@@ -11,3 +11,4 @@ function return_percentage () {
 # Call the function with 456 and 632 and echo the result
 return_test=$(return_percentage 456 632)
 echo "456 out of 632 as a percent is $return_test%"
+
