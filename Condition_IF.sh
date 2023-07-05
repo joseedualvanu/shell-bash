@@ -11,7 +11,6 @@ if [ $accuracy -lt 90 ]; then
     mv $1 bad_models/
 fi
 
-
 # Create variable from first ARGV element
 sfile=$1
 
